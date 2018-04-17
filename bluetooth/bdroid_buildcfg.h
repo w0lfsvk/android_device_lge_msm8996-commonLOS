@@ -41,8 +41,7 @@ inline const char* BtmGetDefaultName()
 #define BTM_DEF_LOCAL_NAME BtmGetDefaultName()
 #define BTA_DISABLE_DELAY 1000 /* in milliseconds */
 
-#define BTM_WBS_INCLUDED TRUE /* Enable WBS */
-#define BTIF_HF_WBS_PREFERRED TRUE /* Use WBS */
+#define BTM_SCO_ENHANCED_SYNC_ENABLED FALSE
 
 #pragma pop_macro("PROPERTY_VALUE_MAX")
 
